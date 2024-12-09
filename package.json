@@ -1,0 +1,25 @@
+{
+  "name": "stackfield-unofficial",
+  "description": "Unofficial Stackfield API client",
+  "license": "ISC",
+  "author": "AS Strömungstechnik GmbH",
+  "keywords": [
+    "stackfield"
+  ],
+  "repository": "as-stroemungstechnik/stackfield-unofficial",
+  "homepage": "https://github.com/as-stroemungstechnik/stackfield-unofficial",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.4.2",
+    "tsup": "8.3.5",
+    "typescript": "5.7.2"
+  }
+}

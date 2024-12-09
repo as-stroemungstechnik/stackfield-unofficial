@@ -1,0 +1,10 @@
+.vscode/
+node_modules/
+src/
+
+.gitignore
+.prettierrc.json
+tsconfig.json
+tsup.config
+
+.DS_Store
