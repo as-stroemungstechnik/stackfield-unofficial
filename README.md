@@ -31,6 +31,29 @@ await stackfield.sendChatMessage({
 });
 ```
 
+#### Upload a file
+
+```html
+<form id="myForm">
+  <input type="file" name="myFile" />
+  <button type="submit">Upload</button>
+</form>
+
+<script>
+  const form = document.querySelector('#myForm');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const file = formData.get('myFile');
+
+    await stackfield.uploadFile({
+      webhookUrl: 'https://www.stackfield.com/apiwh/d4c7e4cf-2503-4d2c-99eb-7a5cf5f4b925',
+      file: { file: file, fileName: file.name },
+    });
+  });
+</script>
+```
+
 #### Error handling
 
 ```js
