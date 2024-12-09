@@ -1,6 +1,6 @@
 # Unofficial Stackfield API client
 
-[Stackfield API](https://www.stackfield.com/developer-api) client for the Node.js and the browser.
+[Stackfield API](https://www.stackfield.com/developer-api) client for Node.js and the browser.
 
 ## Getting started
 
